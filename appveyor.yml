@@ -13,7 +13,7 @@ install:
 test_script:
   - yarn ng -- build --prod --aot --no-progress
   - yarn test -- --single-run --no-progress --ignore-engines
-  - yarn lint
+  #- yarn lint
 
 build: off
 
